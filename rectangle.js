@@ -1,4 +1,5 @@
-module.exports = (x, y, callback) => {
+//rectangle.js
+export default (x, y, callback) => {
   if (x <= 0 || y <= 0) {
     callback(
       new Error(
